@@ -41,7 +41,7 @@ Component
 ```
 
 ```js
-  var parse = require('matrix-to-css');
+  var matrixToCSS = require('matrix-to-css');
 ```
 
 ## API and Example Usage
