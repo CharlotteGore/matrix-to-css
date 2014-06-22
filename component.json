@@ -2,7 +2,7 @@
   "name": "matrix-to-css",
   "repo": "charlottegore/matrix-to-css",
   "description": "Converts gl-matrix mat4 objects into css transform: matrix3d strings",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "keywords": [],
   "dependencies": {
   },

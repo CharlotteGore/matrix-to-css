@@ -1,6 +1,6 @@
 {
   "name": "matrix-to-css",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Converts gl-matrix mat4 objects into css transform: matrix3d strings",
   "main": "index.js",
   "scripts": {
