@@ -1,0 +1,26 @@
+{
+  "name": "matrix-to-css",
+  "version": "1.0.0",
+  "description": "Converts gl-matrix mat4 objects into css transform: matrix3d strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/charlottegore/matrix-to-css"
+  },
+  "keywords": [
+    "matrix3d",
+    "css",
+    "transform",
+    "gl-matrix",
+    "animation",
+    "gpu-acceleration"
+  ],
+  "author": "Charlotte Gore <charlotte@greenmesa.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlottegore/matrix-to-css/issues"
+  }
+}
