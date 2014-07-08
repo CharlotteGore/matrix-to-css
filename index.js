@@ -17,22 +17,22 @@
 
 function generateCSSString(matrix ){
    var str = '';
-   str += matrix[0] + ',';
-   str += matrix[1] + ',';
-   str += matrix[2] + ',';
-   str += matrix[3] + ',';
-   str += matrix[4] + ',';
-   str += matrix[5] + ',';
-   str += matrix[6] + ',';
-   str += matrix[7] + ',';
-   str += matrix[8] + ',';
-   str += matrix[9] + ',';
-   str += matrix[10] + ',';
-   str += matrix[11] + ',';
-   str += matrix[12] + ',';
-   str += matrix[13] + ',';
-   str += matrix[14] + ',';
-   str += matrix[15];
+   str += matrix[0].toFixed(20) + ',';
+   str += matrix[1].toFixed(20) + ',';
+   str += matrix[2].toFixed(20) + ',';
+   str += matrix[3].toFixed(20) + ',';
+   str += matrix[4].toFixed(20) + ',';
+   str += matrix[5].toFixed(20) + ',';
+   str += matrix[6].toFixed(20) + ',';
+   str += matrix[7].toFixed(20) + ',';
+   str += matrix[8].toFixed(20) + ',';
+   str += matrix[9].toFixed(20) + ',';
+   str += matrix[10].toFixed(20) + ',';
+   str += matrix[11].toFixed(20) + ',';
+   str += matrix[12].toFixed(20) + ',';
+   str += matrix[13].toFixed(20) + ',';
+   str += matrix[14].toFixed(20) + ',';
+   str += matrix[15].toFixed(20);
 
    return 'matrix3d(' + str + ')';
 
